@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="E04189FD-FE9A-7D2E-3800-5B5215D8C97E" name="T_DEPTO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="DDB9B7FA-F188-5DB3-24CC-D5B5C3F4B63A" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="6B4F76E2-7ACC-DE42-FBC2-C220F8FCBB1C" name="T_GERENTE" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="DDB9B7FA-F188-5DB3-24CC-D5B5C3F4B63A" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="93CE843F-3B08-0D2E-A1F4-8791D2E48D73" name="gerenciar" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="DDB9B7FA-F188-5DB3-24CC-D5B5C3F4B63A" propertySourceId="E04189FD-FE9A-7D2E-3800-5B5215D8C97E" propertyTargetId="6B4F76E2-7ACC-DE42-FBC2-C220F8FCBB1C"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

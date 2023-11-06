@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3EDC13CF-3208-2D2C-3467-8F3190042A0F" name="T_PACIENTE">
+<createdBy>MilhOwO</createdBy>
+<createdTime>2023-05-04 17:05:33 UTC</createdTime>
+<ownerDesignName>Minha Namo Mim Obrigo</ownerDesignName>
+<engineerTo>
+<item key="EF0F7F43-30B5-E198-8CF9-B2B086CCC247" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="vl_cpf" id="5FFCA9BA-9A0C-8EC8-10FF-08D5530EEC0B">
+<createdBy>MilhOwO</createdBy>
+<createdTime>2023-05-04 17:05:44 UTC</createdTime>
+<ownerDesignName>Minha Namo Mim Obrigo</ownerDesignName>
+<engineerTo>
+<item key="EF0F7F43-30B5-E198-8CF9-B2B086CCC247" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_convenio" id="C02CBEF5-D251-2CE1-F101-D3E7CA135D3C">
+<createdBy>MilhOwO</createdBy>
+<createdTime>2023-05-04 17:05:56 UTC</createdTime>
+<ownerDesignName>Minha Namo Mim Obrigo</ownerDesignName>
+<engineerTo>
+<item key="EF0F7F43-30B5-E198-8CF9-B2B086CCC247" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_nascimento" id="7236482D-0472-D5BB-B1E8-E2321E332AEF">
+<createdBy>MilhOwO</createdBy>
+<createdTime>2023-05-04 17:06:07 UTC</createdTime>
+<ownerDesignName>Minha Namo Mim Obrigo</ownerDesignName>
+<engineerTo>
+<item key="EF0F7F43-30B5-E198-8CF9-B2B086CCC247" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="09C51B92-58FA-B072-E43A-57DA4A200E6A" name="T_PACIENTE PK">
+<createdBy>MilhOwO</createdBy>
+<createdTime>2023-05-04 17:06:04 UTC</createdTime>
+<ownerDesignName>Minha Namo Mim Obrigo</ownerDesignName>
+<engineerTo>
+<item key="EF0F7F43-30B5-E198-8CF9-B2B086CCC247" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5FFCA9BA-9A0C-8EC8-10FF-08D5530EEC0B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

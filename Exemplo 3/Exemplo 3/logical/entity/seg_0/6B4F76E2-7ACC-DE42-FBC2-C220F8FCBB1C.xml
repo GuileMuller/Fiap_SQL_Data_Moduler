@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6B4F76E2-7ACC-DE42-FBC2-C220F8FCBB1C" name="T_GERENTE">
+<createdBy>MilhOwO</createdBy>
+<createdTime>2023-05-03 17:08:09 UTC</createdTime>
+<ownerDesignName>Exemplo 3</ownerDesignName>
+<engineerTo>
+<item key="ED8D1495-682D-B764-5626-09E5EDFCC10D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_gerente" id="93232752-A6D1-A821-C9A7-B6726862D955">
+<createdBy>MilhOwO</createdBy>
+<createdTime>2023-05-03 17:08:20 UTC</createdTime>
+<ownerDesignName>Exemplo 3</ownerDesignName>
+<engineerTo>
+<item key="ED8D1495-682D-B764-5626-09E5EDFCC10D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_gerente" id="3BD22C5B-0927-903E-827E-76DCD7CCBA71">
+<createdBy>MilhOwO</createdBy>
+<createdTime>2023-05-03 17:08:31 UTC</createdTime>
+<ownerDesignName>Exemplo 3</ownerDesignName>
+<engineerTo>
+<item key="ED8D1495-682D-B764-5626-09E5EDFCC10D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dc_depto" id="66C47B23-2BFF-8AE6-D755-AD5D3DB97712">
+<createdBy>MilhOwO</createdBy>
+<createdTime>2023-05-03 17:11:00 UTC</createdTime>
+<generatorID>93CE843F-3B08-0D2E-A1F4-8791D2E48D73</generatorID>
+<ownerDesignName>Exemplo 3</ownerDesignName>
+<engineerTo>
+<item key="ED8D1495-682D-B764-5626-09E5EDFCC10D" value="true"/>
+</engineerTo>
+<referedAttribute>E204FE17-60BE-9A7C-77C8-9F1924A01F06</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5CDD6018-A82A-E937-73D7-70C91941EA65" name="T_GERENTE PK">
+<createdBy>MilhOwO</createdBy>
+<createdTime>2023-05-03 17:08:30 UTC</createdTime>
+<ownerDesignName>Exemplo 3</ownerDesignName>
+<engineerTo>
+<item key="ED8D1495-682D-B764-5626-09E5EDFCC10D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>93232752-A6D1-A821-C9A7-B6726862D955</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

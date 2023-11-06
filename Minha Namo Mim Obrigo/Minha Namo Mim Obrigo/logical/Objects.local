@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="E02E2ECC-6CF4-3C0B-EAF3-C44BDC06CEA8" name="T_MEDICO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="9C6554DF-D367-14EE-4FB9-6DC35F1D2B73" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="3EDC13CF-3208-2D2C-3467-8F3190042A0F" name="T_PACIENTE" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="9C6554DF-D367-14EE-4FB9-6DC35F1D2B73" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="AC4C1D07-6672-792B-1570-519B8A63B9F6" name="T_PROTUARIO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="9C6554DF-D367-14EE-4FB9-6DC35F1D2B73" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="B31ECC8B-75DE-7655-A4E8-E4A7D29FD98A" name="assinar" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="9C6554DF-D367-14EE-4FB9-6DC35F1D2B73" propertySourceId="3EDC13CF-3208-2D2C-3467-8F3190042A0F" propertyTargetId="AC4C1D07-6672-792B-1570-519B8A63B9F6"/>
+   <object objectType="Relation" objectID="82858BCF-77EC-BC6C-0014-B0695783187A" name="consultar" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="9C6554DF-D367-14EE-4FB9-6DC35F1D2B73" propertySourceId="AC4C1D07-6672-792B-1570-519B8A63B9F6" propertyTargetId="E02E2ECC-6CF4-3C0B-EAF3-C44BDC06CEA8"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

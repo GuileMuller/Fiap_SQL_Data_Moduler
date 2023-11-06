@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E04189FD-FE9A-7D2E-3800-5B5215D8C97E" name="T_DEPTO">
+<createdBy>MilhOwO</createdBy>
+<createdTime>2023-05-03 17:07:43 UTC</createdTime>
+<ownerDesignName>Exemplo 3</ownerDesignName>
+<engineerTo>
+<item key="ED8D1495-682D-B764-5626-09E5EDFCC10D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="dc_depto" id="E204FE17-60BE-9A7C-77C8-9F1924A01F06">
+<createdBy>MilhOwO</createdBy>
+<createdTime>2023-05-03 17:07:52 UTC</createdTime>
+<ownerDesignName>Exemplo 3</ownerDesignName>
+<engineerTo>
+<item key="ED8D1495-682D-B764-5626-09E5EDFCC10D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_depto" id="0EF2DE42-A1E2-5A29-FFAE-26CFBE3202D8">
+<createdBy>MilhOwO</createdBy>
+<createdTime>2023-05-03 17:07:58 UTC</createdTime>
+<ownerDesignName>Exemplo 3</ownerDesignName>
+<engineerTo>
+<item key="ED8D1495-682D-B764-5626-09E5EDFCC10D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CB71FE6E-1F15-D36C-6C71-FE097109C5D5" name="T_DEPTO PK">
+<createdBy>MilhOwO</createdBy>
+<createdTime>2023-05-03 17:07:57 UTC</createdTime>
+<ownerDesignName>Exemplo 3</ownerDesignName>
+<engineerTo>
+<item key="ED8D1495-682D-B764-5626-09E5EDFCC10D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E204FE17-60BE-9A7C-77C8-9F1924A01F06</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

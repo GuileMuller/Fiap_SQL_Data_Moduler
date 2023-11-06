@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="6304DD56-519C-AFB3-FEA7-B598653FBA55" name="T_CONTATO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="82D2F0BF-A347-910C-1D00-488AC465501B" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="701FB6C9-F130-F84F-6E6B-812451C80CD5" name="T_ENDERECO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="82D2F0BF-A347-910C-1D00-488AC465501B" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="BD4BE84A-591D-76C9-89D6-4A2E4A933E14" name="T_TELEFONE" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="82D2F0BF-A347-910C-1D00-488AC465501B" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="65851007-EF14-3378-B79C-490C5254531F" name="Relation_3" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="82D2F0BF-A347-910C-1D00-488AC465501B" propertySourceId="BD4BE84A-591D-76C9-89D6-4A2E4A933E14" propertyTargetId="6304DD56-519C-AFB3-FEA7-B598653FBA55"/>
+   <object objectType="Relation" objectID="E1F9E6A8-6FA0-460B-337E-05953914C32B" name="Relation_4" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="82D2F0BF-A347-910C-1D00-488AC465501B" propertySourceId="701FB6C9-F130-F84F-6E6B-812451C80CD5" propertyTargetId="6304DD56-519C-AFB3-FEA7-B598653FBA55"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>
